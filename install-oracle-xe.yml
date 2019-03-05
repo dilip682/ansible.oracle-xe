@@ -1,0 +1,8 @@
+---
+
+- hosts: oracle-xe
+  become: yes
+  become_method: sudo
+
+  roles:
+    - ansible-oracle-xe
